@@ -253,11 +253,11 @@ function getCube(num) {
  *   3  => 2
  *   10 => 55
  */
-function getFibonacciNumber(index) {
-  if (index <= 1) {
-    return index;
+function getFibonacciNumber(i) {
+  if (i <= 1) {
+    return i;
   }
-  return getFibonacciNumber(index - 1) + getFibonacciNumber(index - 2);
+  return getFibonacciNumber(i - 1) + getFibonacciNumber(i - 2);
 }
 
 /**
